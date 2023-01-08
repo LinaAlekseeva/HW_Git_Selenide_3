@@ -22,5 +22,6 @@ public class TextBoxTests {
     void newTest(){
 
         open("https://demoqa.com/automation-practice-form");
+        System.out.println("This is conflict test");
     }
 }
