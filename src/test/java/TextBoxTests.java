@@ -18,4 +18,9 @@ public class TextBoxTests {
         $("#output #email").shouldHave(text("pavellepet@gmail.com"));
 
     }
+    @Test
+    void newTest(){
+
+        open("https://demoqa.com/automation-practice-form");
+    }
 }
