@@ -22,5 +22,6 @@ public class TextBoxTests {
     void newTest(){
 
         open("https://demoqa.com/automation-practice-form");
+        $("#userEmail ").setValue("pavellepet@gmail.com");
     }
 }
